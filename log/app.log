@@ -103,3 +103,86 @@
 2020-07-01 21:44:38 [EROR] [s-dirscan/s-dirscan.go:54] Head http://129.211.73./xampp/s8: dial tcp: lookup 129.211.73.: no such host
 2020-07-01 21:44:38 [EROR] [s-dirscan/s-dirscan.go:54] Head http://129.211.73./image/travel_01.jpg: dial tcp: lookup 129.211.73.: no such host
 2020-07-01 21:44:38 [EROR] [s-dirscan/s-dirscan.go:54] Head http://129.211.73./hack.asa: dial tcp: lookup 129.211.73.: no such host
+2020-07-01 22:05:58 [EROR] [s-dirscan/s-dirscan.go:56] Head /chg_admin/upfile.htm: unsupported protocol scheme ""
+2020-07-01 22:05:58 [EROR] [s-dirscan/s-dirscan.go:56] Head /wu: unsupported protocol scheme ""
+2020-07-01 22:05:58 [EROR] [s-dirscan/s-dirscan.go:56] Head /database/backups.rar: unsupported protocol scheme ""
+2020-07-01 22:05:58 [EROR] [s-dirscan/s-dirscan.go:56] Head /image/travel_01.jpg: unsupported protocol scheme ""
+2020-07-01 22:05:58 [EROR] [s-dirscan/s-dirscan.go:56] Head /bbs/s-u.exe: unsupported protocol scheme ""
+2020-07-01 22:05:58 [EROR] [s-dirscan/s-dirscan.go:56] Head /9bdqqq.txt: unsupported protocol scheme ""
+2020-07-01 22:05:58 [EROR] [s-dirscan/s-dirscan.go:56] Head /men/conn.php.bak: unsupported protocol scheme ""
+2020-07-01 22:05:58 [EROR] [s-dirscan/s-dirscan.go:56] Head /gcylmirserver22.rar: unsupported protocol scheme ""
+2020-07-01 22:05:58 [EROR] [s-dirscan/s-dirscan.go:56] Head /xampp/s8: unsupported protocol scheme ""
+2020-07-01 22:05:58 [EROR] [s-dirscan/s-dirscan.go:56] Head /FCKeditor/pgqeeditor/filemanager/browser/default/connectors/jsp/connector: unsupported protocol scheme ""
+2020-07-01 22:05:58 [EROR] [s-dirscan/s-dirscan.go:56] Head /ewwheee.rar: unsupported protocol scheme ""
+2020-07-01 22:05:58 [EROR] [s-dirscan/s-dirscan.go:56] Head /admini/HTML: unsupported protocol scheme ""
+2020-07-01 22:05:58 [EROR] [s-dirscan/s-dirscan.go:56] Head /admin1%7Bext%7D: unsupported protocol scheme ""
+2020-07-01 22:05:58 [EROR] [s-dirscan/s-dirscan.go:56] Head /download/show: unsupported protocol scheme ""
+2020-07-01 22:05:58 [EROR] [s-dirscan/s-dirscan.go:56] Head /Uploadfile1.htm: unsupported protocol scheme ""
+2020-07-01 22:05:58 [EROR] [s-dirscan/s-dirscan.go:56] Head /oh: unsupported protocol scheme ""
+2020-07-01 22:05:58 [EROR] [s-dirscan/s-dirscan.go:56] Head /user%7Bext%7D: unsupported protocol scheme ""
+2020-07-01 22:05:58 [EROR] [s-dirscan/s-dirscan.go:56] Head /plus: unsupported protocol scheme ""
+2020-07-01 22:05:58 [EROR] [s-dirscan/s-dirscan.go:56] Head /basedadmin/admin_login.p: unsupported protocol scheme ""
+2020-07-01 22:05:58 [EROR] [s-dirscan/s-dirscan.go:56] Head /hack.asa: unsupported protocol scheme ""
+2020-07-01 22:05:58 [EROR] [s-dirscan/s-dirscan.go:56] Head /radmind: unsupported protocol scheme ""
+2020-07-01 22:06:56 [EROR] [s-dirscan/s-dirscan.go:55] Head /men/conn.php.bak: unsupported protocol scheme ""
+2020-07-01 22:06:56 [EROR] [s-dirscan/s-dirscan.go:55] Head /9bdqqq.txt: unsupported protocol scheme ""
+2020-07-01 22:06:56 [EROR] [s-dirscan/s-dirscan.go:55] Head /plus: unsupported protocol scheme ""
+2020-07-01 22:06:56 [EROR] [s-dirscan/s-dirscan.go:55] Head /xampp/s8: unsupported protocol scheme ""
+2020-07-01 22:06:56 [EROR] [s-dirscan/s-dirscan.go:55] Head /chg_admin/upfile.htm: unsupported protocol scheme ""
+2020-07-01 22:06:56 [EROR] [s-dirscan/s-dirscan.go:55] Head /admini/HTML: unsupported protocol scheme ""
+2020-07-01 22:06:56 [EROR] [s-dirscan/s-dirscan.go:55] Head /Uploadfile1.htm: unsupported protocol scheme ""
+2020-07-01 22:06:56 [EROR] [s-dirscan/s-dirscan.go:55] Head /admin1%7Bext%7D: unsupported protocol scheme ""
+2020-07-01 22:06:56 [EROR] [s-dirscan/s-dirscan.go:55] Head /gcylmirserver22.rar: unsupported protocol scheme ""
+2020-07-01 22:06:56 [EROR] [s-dirscan/s-dirscan.go:55] Head /FCKeditor/pgqeeditor/filemanager/browser/default/connectors/jsp/connector: unsupported protocol scheme ""
+2020-07-01 22:06:56 [EROR] [s-dirscan/s-dirscan.go:55] Head /ewwheee.rar: unsupported protocol scheme ""
+2020-07-01 22:06:56 [EROR] [s-dirscan/s-dirscan.go:55] Head /user%7Bext%7D: unsupported protocol scheme ""
+2020-07-01 22:06:56 [EROR] [s-dirscan/s-dirscan.go:55] Head /wu: unsupported protocol scheme ""
+2020-07-01 22:06:56 [EROR] [s-dirscan/s-dirscan.go:55] Head /download/show: unsupported protocol scheme ""
+2020-07-01 22:06:56 [EROR] [s-dirscan/s-dirscan.go:55] Head /basedadmin/admin_login.p: unsupported protocol scheme ""
+2020-07-01 22:06:56 [EROR] [s-dirscan/s-dirscan.go:55] Head /hack.asa: unsupported protocol scheme ""
+2020-07-01 22:06:56 [EROR] [s-dirscan/s-dirscan.go:55] Head /oh: unsupported protocol scheme ""
+2020-07-01 22:06:56 [EROR] [s-dirscan/s-dirscan.go:55] Head /image/travel_01.jpg: unsupported protocol scheme ""
+2020-07-01 22:06:56 [EROR] [s-dirscan/s-dirscan.go:55] Head /radmind: unsupported protocol scheme ""
+2020-07-01 22:06:56 [EROR] [s-dirscan/s-dirscan.go:55] Head /database/backups.rar: unsupported protocol scheme ""
+2020-07-01 22:06:56 [EROR] [s-dirscan/s-dirscan.go:55] Head /bbs/s-u.exe: unsupported protocol scheme ""
+2020-07-01 22:07:36 [EROR] [s-dirscan/s-dirscan.go:55] Head /Uploadfile1.htm: unsupported protocol scheme ""
+2020-07-01 22:07:36 [EROR] [s-dirscan/s-dirscan.go:55] Head /xampp/s8: unsupported protocol scheme ""
+2020-07-01 22:07:36 [EROR] [s-dirscan/s-dirscan.go:55] Head /user%7Bext%7D: unsupported protocol scheme ""
+2020-07-01 22:07:36 [EROR] [s-dirscan/s-dirscan.go:55] Head /9bdqqq.txt: unsupported protocol scheme ""
+2020-07-01 22:07:36 [EROR] [s-dirscan/s-dirscan.go:55] Head /men/conn.php.bak: unsupported protocol scheme ""
+2020-07-01 22:07:36 [EROR] [s-dirscan/s-dirscan.go:55] Head /gcylmirserver22.rar: unsupported protocol scheme ""
+2020-07-01 22:07:36 [EROR] [s-dirscan/s-dirscan.go:55] Head /FCKeditor/pgqeeditor/filemanager/browser/default/connectors/jsp/connector: unsupported protocol scheme ""
+2020-07-01 22:07:36 [EROR] [s-dirscan/s-dirscan.go:55] Head /ewwheee.rar: unsupported protocol scheme ""
+2020-07-01 22:07:36 [EROR] [s-dirscan/s-dirscan.go:55] Head /admin1%7Bext%7D: unsupported protocol scheme ""
+2020-07-01 22:07:36 [EROR] [s-dirscan/s-dirscan.go:55] Head /download/show: unsupported protocol scheme ""
+2020-07-01 22:07:36 [EROR] [s-dirscan/s-dirscan.go:55] Head /oh: unsupported protocol scheme ""
+2020-07-01 22:07:36 [EROR] [s-dirscan/s-dirscan.go:55] Head /bbs/s-u.exe: unsupported protocol scheme ""
+2020-07-01 22:07:36 [EROR] [s-dirscan/s-dirscan.go:55] Head /basedadmin/admin_login.p: unsupported protocol scheme ""
+2020-07-01 22:07:36 [EROR] [s-dirscan/s-dirscan.go:55] Head /hack.asa: unsupported protocol scheme ""
+2020-07-01 22:07:36 [EROR] [s-dirscan/s-dirscan.go:55] Head /radmind: unsupported protocol scheme ""
+2020-07-01 22:07:36 [EROR] [s-dirscan/s-dirscan.go:55] Head /database/backups.rar: unsupported protocol scheme ""
+2020-07-01 22:07:36 [EROR] [s-dirscan/s-dirscan.go:55] Head /chg_admin/upfile.htm: unsupported protocol scheme ""
+2020-07-01 22:07:36 [EROR] [s-dirscan/s-dirscan.go:55] Head /wu: unsupported protocol scheme ""
+2020-07-01 22:07:36 [EROR] [s-dirscan/s-dirscan.go:55] Head /plus: unsupported protocol scheme ""
+2020-07-01 22:07:36 [EROR] [s-dirscan/s-dirscan.go:55] Head /admini/HTML: unsupported protocol scheme ""
+2020-07-01 22:07:36 [EROR] [s-dirscan/s-dirscan.go:55] Head /image/travel_01.jpg: unsupported protocol scheme ""
+2020-07-01 22:07:41 [INFO] [s-dirscan/s-dirscan.go:71] http://129.211.73.107//123.txt --> 200
+2020-07-01 22:07:43 [INFO] [s-dirscan/s-dirscan.go:71] http://129.211.73.107//robots.txt --> 200
+2020-07-01 22:07:43 [INFO] [s-dirscan/s-dirscan.go:71] http://129.211.73.107//1.txt --> 200
+2020-07-01 22:07:43 [INFO] [s-dirscan/s-dirscan.go:71] http://129.211.73.107//test.txt --> 200
+2020-07-01 22:07:48 [EROR] [s-dirscan/s-dirscan.go:56] parse http://129.211.73.107//database/%: invalid URL escape "%"
+2020-07-01 22:07:48 [INFO] [s-dirscan/s-dirscan.go:71] http://129.211.73.107//static --> 200
+2020-07-01 22:07:49 [INFO] [s-dirscan/s-dirscan.go:71] http://129.211.73.107//manual --> 200
+2020-07-01 22:07:51 [INFO] [s-dirscan/s-dirscan.go:71] http://129.211.73.107//html --> 200
+2020-07-01 22:07:51 [INFO] [s-dirscan/s-dirscan.go:71] http://129.211.73.107//manual/ --> 200
+2020-07-01 22:07:56 [INFO] [s-dirscan/s-dirscan.go:71] http://129.211.73.107/123.txt --> 200
+2020-07-01 22:07:58 [INFO] [s-dirscan/s-dirscan.go:71] http://129.211.73.107/robots.txt --> 200
+2020-07-01 22:07:59 [INFO] [s-dirscan/s-dirscan.go:71] http://129.211.73.107/1.txt --> 200
+2020-07-01 22:07:59 [INFO] [s-dirscan/s-dirscan.go:71] http://129.211.73.107/test.txt --> 200
+2020-07-01 22:08:02 [INFO] [s-dirscan/s-dirscan.go:71] http://129.211.73.107/manual/ --> 200
+2020-07-01 22:08:03 [INFO] [s-dirscan/s-dirscan.go:71] http://129.211.73.107/static --> 200
+2020-07-01 22:08:03 [EROR] [s-dirscan/s-dirscan.go:56] parse http://129.211.73.107/database/%: invalid URL escape "%"
+2020-07-01 22:08:04 [INFO] [s-dirscan/s-dirscan.go:71] http://129.211.73.107/manual --> 200
+2020-07-01 22:08:06 [INFO] [s-dirscan/s-dirscan.go:71] http://129.211.73.107/html --> 200
+2020-07-01 22:08:06 [INFO] [s-dirscan/s-dirscan.go:71] http://129.211.73.107/tools --> 200
+2020-07-01 22:08:09 [INFO] [s-dirscan/s-dirscan.go:48] Done!
