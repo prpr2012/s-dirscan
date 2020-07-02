@@ -15,35 +15,59 @@ var (
 	host   string
 	dic    string
 	thread int
-	help   string
+	sfile  string
 )
 
 func main() {
+	fmt.Print(utils.ReadFile("banner.txt"))
 	flag.StringVar(&host, "h", "", "target")
 	flag.StringVar(&dic, "d", "dic/dic.txt", "dic")
 	flag.IntVar(&thread, "t", 10, "goroutine num")
+	flag.StringVar(&sfile,"f","","read hosts from specific file")
 	flag.Parse()
-	if !utils.Check(host) {
-		fmt.Println("plase input right url...")
+
+	paths,err2 := utils.ReadLines(dic)
+	if err2 !=nil{
+		fmt.Println("打开文件出错:",err2)
 		return
 	}
-	paths, err := utils.ReadLines(dic)
-	if err == nil {
+
+	if sfile != ""{
 		logger.SetLogger("config/log.json")
-		length := len(paths)
-		COROUTNUM := thread
-		groupLength := length / COROUTNUM
-		wg.Add(10)
-		for i := 0; i < COROUTNUM; i++ {
-			go getpath(paths[i*groupLength : (i+1)*groupLength])
+		hosts,err1 := utils.ReadLines(sfile)
+		if err1 == nil{
+			for _,host := range hosts{
+				execTask(host,paths)
+			}
+		}else {
+			fmt.Println("打开文件出错:",err1)
 		}
-		go getpath(paths[COROUTNUM*groupLength:])
+
+	}else if host !=""{
+		execTask(host,paths)
 	} else {
 		flag.PrintDefaults()
+	}
+
+}
+
+func execTask(host string,paths []string){
+	if host!=""&&!utils.Check(host) {
+		fmt.Println("plase input right url or target is dead...")
 		return
 	}
+	length := len(paths)
+	COROUTNUM := thread
+	groupLength := length / COROUTNUM
+	wg.Add(10)
+	for i := 0; i < COROUTNUM; i++ {
+		go getpath(paths[i*groupLength : (i+1)*groupLength])
+	}
+	go getpath(paths[COROUTNUM*groupLength:])
 	wg.Wait()
 	logger.Info("Done!")
+	logger.Info("================================")
+
 }
 
 func getpath(paths []string) {

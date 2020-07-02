@@ -4,6 +4,7 @@ import (
 	"bufio"
 	"github.com/axgle/mahonia"
 	"os"
+	"io/ioutil"
 )
 
 
@@ -20,4 +21,14 @@ func ReadLines(path string)(lines []string,err error){
 		lines = append(lines,enc.ConvertString(scanner.Text()))
 	}
 	return lines,err
+}
+
+func ReadFile(path string) ( s string){
+	c,err := ioutil.ReadFile(path)
+	if err == nil{
+		return string(c)
+	}else {
+		return ""
+	}
+
 }
