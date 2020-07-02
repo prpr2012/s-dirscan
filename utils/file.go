@@ -3,8 +3,8 @@ package utils
 import (
 	"bufio"
 	"github.com/axgle/mahonia"
-	"os"
 	"io/ioutil"
+	"os"
 )
 
 
